@@ -5,6 +5,7 @@ email: thomas.mcgonagle@suse.com
 ---
 
 [Original Blog Article by Brian Durden](https://ranchergovernment.com/blog/three-easy-mode-ways-of-installing-rancher-onto-harvester)
+
 [GitVops YouTube Video Podcast](https://www.youtube.com/live/diMTPCELjJk?si=G3wsiZDTecyElw5U)
 
 GitVops is an operational framework that takes DevOps best practices used for application development, such as:
