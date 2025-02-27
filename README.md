@@ -37,7 +37,7 @@ Learning and understanding how to manage your virtual infrastructure as a softwa
 
 ## A Call to Arms
 
-Now is the time to get involved and learn GitVops! Feel free to star this project, and/or schedule a meeting with Thomas via his calendly - thomas.mcgonagle@suse.com
+Now is the time to get involved and learn GitVops! Feel free to star this project, and/or schedule a meeting with Thomas via his work email - thomas.mcgonagle@suse.com
 
 ## Resources
 [Original Blog Article by Brian Durden](https://ranchergovernment.com/blog/three-easy-mode-ways-of-installing-rancher-onto-harvester)
