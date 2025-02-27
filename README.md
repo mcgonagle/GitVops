@@ -3,10 +3,6 @@ title: GitVops
 author: Thomas A. McGonagle
 email: thomas.mcgonagle@suse.com
 ---
-
-
----
----
 title: Three Easy-mode ways of Installing Rancher onto Harvester
 author: Brian Durden
 email: brian.durden@ranchergovernment.com
