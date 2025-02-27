@@ -43,3 +43,5 @@ Now is the time to get involved and learn GitVops! Feel free to star this projec
 [Original Blog Article by Brian Durden](https://ranchergovernment.com/blog/three-easy-mode-ways-of-installing-rancher-onto-harvester)
 
 [GitVops YouTube Video Podcast](https://www.youtube.com/live/diMTPCELjJk?si=G3wsiZDTecyElw5U)
+
+
