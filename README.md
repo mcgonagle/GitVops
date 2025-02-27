@@ -44,6 +44,7 @@ Now is the time to get involved and learn GitVops! Feel free to star this projec
 
 [GitVops YouTube Video Podcast](https://www.youtube.com/live/diMTPCELjJk?si=G3wsiZDTecyElw5U)
 
+----
 ### From Brian Durden's [Original Blog on GitVops](https://ranchergovernment.com/blog/three-easy-mode-ways-of-installing-rancher-onto-harvester)
 ## A simple helmchart for Harvester
 
