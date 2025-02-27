@@ -4,12 +4,8 @@ author: Thomas A. McGonagle
 email: thomas.mcgonagle@suse.com
 ---
 
-## Resources
-[Original Blog Article by Brian Durden](https://ranchergovernment.com/blog/three-easy-mode-ways-of-installing-rancher-onto-harvester)
-
-[GitVops YouTube Video Podcast](https://www.youtube.com/live/diMTPCELjJk?si=G3wsiZDTecyElw5U)
-
-## GitVops is an operational framework that takes DevOps best practices used for application development, such as:
+## GitVops
+GitVops is an operational framework that takes DevOps best practices used for application development, such as:
 
 * version control
 * collaboration
@@ -37,3 +33,8 @@ Learning and understanding how to manage your network infrastructure as a softwa
 ## A Call to Arms
 
 Now is the time to get involved and learn GitVops! Feel free to star this project, and/or schedule a meeting with Thomas via his calendly - thomas.mcgonagle@suse.com
+
+## Resources
+[Original Blog Article by Brian Durden](https://ranchergovernment.com/blog/three-easy-mode-ways-of-installing-rancher-onto-harvester)
+
+[GitVops YouTube Video Podcast](https://www.youtube.com/live/diMTPCELjJk?si=G3wsiZDTecyElw5U)
