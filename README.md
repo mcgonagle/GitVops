@@ -33,4 +33,4 @@ Learning and understanding how to manage your network infrastructure as a softwa
 
 ## A Call to Arms
 
-Now is the time to get involved and learn GitNops! Feel free to star this project, and/or schedule a meeting with Thomas via his calendly - thomas.mcgonagle@suse.com
+Now is the time to get involved and learn GitVops! Feel free to star this project, and/or schedule a meeting with Thomas via his calendly - thomas.mcgonagle@suse.com
