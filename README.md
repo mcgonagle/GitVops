@@ -15,6 +15,9 @@ GitVops is an operational framework that takes DevOps best practices used for ap
 
 and applies them to virtualization management.
 
+## The True Power of Kubernetes
+The true power of Kubernetes extends far beyond simple container orchestration, residing in its robust API and the ability to define Custom Resource Definitions (CRDs). The API provides a declarative, programmatic interface to every aspect of the cluster, enabling automation and integration with other systems. 1  CRDs, in turn, allow users to extend Kubernetes with their own custom objects and controllers, effectively turning the platform into a programmable control plane for any application or infrastructure component.  This flexibility empowers developers and operators to model complex, domain-specific workflows such as virtual machines with SUSE Virtualization and manage them with the same consistent, declarative approach used for core Kubernetes resources, unlocking unparalleled extensibility and adaptability.
+
 ## Collaborative Automation is Key
 Collaborative automation is simply teams of engineers and administrators working together, towards a common goal, utilizing automation tooling to make their jobs easier, more efficient, and stress free. A secondary DevOps practice, configuration management, is important to GitVops, and has undergone a fundamental shift over the last few years as social coding via sites like github.com have become increasingly popular. Virtualization teams are able to share their software modeled VMs with other team members, solicit feedback, find bugs, and squash those bugs all because their VMs are modeled in code.
 
