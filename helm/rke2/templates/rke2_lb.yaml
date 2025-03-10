@@ -2,19 +2,19 @@
 apiVersion: loadbalancer.harvesterhci.io/v1beta1
 kind: IPPool
 metadata:
-  name: {{ .Values.cluster_name }}-pool
+  name: {{ Values.cluster_name }}-pool
 spec:
   ranges:
-    - gateway: {{ .Values.control_plane.loadbalancer_gateway }}
-      rangeEnd: {{ .Values.control_plane.vip }}
-      rangeStart: {{ .Values.control_plane.vip }}
-      subnet: {{ .Values.control_plane.loadbalancer_subnet }}
+    - gateway: {{ Values.control_plane.loadbalancer_gateway }}
+      rangeEnd: {{ Values.control_plane.vip }}
+      rangeStart: {{ Values.control_plane.vip }}
+      subnet: {{ Values.control_plane.loadbalancer_subnet }}
   selector: {}
 ---
 apiVersion: loadbalancer.harvesterhci.io/v1beta1
 kind: LoadBalancer
 metadata:
-  name: {{ .Values.cluster_name }}-lb
+  name: {{ Values.cluster_name }}-lb
   namespace: default
 spec:
   healthCheck:
@@ -24,7 +24,7 @@ spec:
     timeoutSeconds: 5
     periodSeconds: 5
   ipam: pool
-  ipPool: {{ .Values.cluster_name }}-pool
+  ipPool: {{ Values.cluster_name }}-pool
   listeners:
     - name: k8s-api
       port: 6443
@@ -42,5 +42,5 @@ spec:
   backendServerSelector:
     harvesterhci.io/vmName:
     {{- range $i := until (.Values.control_plane.node_count | int)}}
-    - {{ .Values.cluster_name }}-cp-{{ $i }}
+    - {{ Values.cluster_name }}-cp-{{ $i }}
     {{- end}}
