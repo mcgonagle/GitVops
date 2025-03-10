@@ -41,6 +41,3 @@ spec:
   workloadType: vm
   backendServerSelector:
     harvesterhci.io/vmName:
-    {{- range $i := until (.Values.control_plane.node_count | int)}}
-    - {{ Values.cluster_name }}-cp-{{ $i }}
-    {{- end}}
